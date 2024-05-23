@@ -1,15 +1,11 @@
 package com.example.woof.data
 
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.res.dimensionResource
-import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.woof.ui.theme.WoofTheme
-import androidx.compose.material3.Text as Text
-import java.lang.reflect.Modifier as Modifier
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+import com.example.woof.R
 
-class Dog {
+
+
     /**
      * A data class to represent the information presented in the dog card
      */
@@ -32,4 +28,3 @@ class Dog {
         Dog(R.drawable.leroy, R.string.dog_name_9, 4, R.string.dog_description_9)
     )
 
-}
